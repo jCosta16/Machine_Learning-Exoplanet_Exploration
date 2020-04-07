@@ -14,14 +14,13 @@ To help process this data, I applied 3 machine learning models, capable of class
 Below you can find a report with a comparison of 3 model's performance as well as a summary about my findings and assumptions based on the model with the best performance.
 
 
-# Summary
+## Summary
 On the initially I used 31 of the 41 features (columns whit data), and used <GrindSearch> tunning the models to get a better result. For Them I selected the 21 most relevant features to run all the models again. This top 21 where pickup by using <feature_importances_> as the selection method.
 
 And here are the results for the three models.
 ***
 
-
-#### Conclusion
+## Conclusion
 With very little training the neural achieves the same accuracy as the SVM model. However with the Hypertuning the SVM model achieves significantly higher accuracy of 88% which surpasses the Neural Network. It would be interesting to see if/how-many epochs of the neural network it would take to achieve the same accuracy.
 
 
