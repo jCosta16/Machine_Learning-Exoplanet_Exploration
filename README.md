@@ -1,17 +1,11 @@
 # Machine Learning - Exoplanet Exploration
-<<<<<<< HEAD
- 
-=======
->>>>>>> db718916ddf4fd1e138a37d88f58e199bb3f7db9
-
-## Background
 
 ## Background
 
 Over a period of nine years in deep space, the NASA Kepler space telescope has been out on a planet-hunting mission to discover hidden planets outside of our solar system.
 
 To help process this data, I applied 3 machine learning models, capable of classifying candidate exoplanets from the raw dataset. For that purpose I followed theses steps:
-<<<<<<< HEAD
+
 
 1. [Preprocess the raw data]
 2. [Tune the models Parameters]
@@ -20,16 +14,16 @@ To help process this data, I applied 3 machine learning models, capable of class
 Below you can find a report with a comparison of 3 model's performance as well as a summary about my findings and assumptions based on the model with the best performance.
 
 
-
-#### Conclusion
-With very little training the neural achieves the same accuracy as the SVM model. However with the Hypertuning the SVM model achieves significantly higher accuracy of 88% which surpasses the Neural Network. It would be interesting to see if/how-many epochs of the neural network it would take to achieve the same accuracy.
-
-
 # Summary
 On the initially I used 31 of the 41 features (columns whit data), and used <GrindSearch> tunning the models to get a better result. For Them I selected the 21 most relevant features to run all the models again. This top 21 where pickup by using <feature_importances_> as the selection method.
 
 And here are the results for the three models.
 ***
+
+
+#### Conclusion
+With very little training the neural achieves the same accuracy as the SVM model. However with the Hypertuning the SVM model achieves significantly higher accuracy of 88% which surpasses the Neural Network. It would be interesting to see if/how-many epochs of the neural network it would take to achieve the same accuracy.
+
 
 ## **SVC**
 
@@ -84,10 +78,18 @@ With very little training the neural achieves the same accuracy as the SVM model
 
 
 # Summary
-On the initially I used 31 of the 41 features (columns whit data), and used <GrindSearch> tunning the models to get a better result. For Them I selected the 21 most relevant features to run all the models again. This top 21 where pickup by using <feature_importances_> as the selection method.
+On the initially I used 31 of the 41 features (columns whit data), and used ```GrindSearch``` tunning the models to get a better result. 
+For Them I selected the 21 most relevant features to run all the models again. This top 21 where pickup by using ```feature_importances_``` as the selection method.
 
-And here are the results for the three models.
 ***
+
+#### Conclusion
+With the Hypertuning of the ```GrindSearch```  the SVC model achieves a better accuracy then the Random Forest model. 
+However reducing the number of features the Ramdon Forest model has a better performance.
+
+We can also notice that, even redducing the number of features in 30% the accuracy for every models dos not have a significant drop in performance. 
+
+
 
 ## **SVC**
 
@@ -127,5 +129,5 @@ And here are the results for the three models.
 | Training Score |        0.99484     |      1.0          |
 | Testing Score  |        0.85354     |      0.88367      |
 
->>>>>>> db718916ddf4fd1e138a37d88f58e199bb3f7db9
+
 ***
