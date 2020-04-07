@@ -37,8 +37,6 @@ And here are the results for the three models.
 | Training Score |        0.79851     |      0.87464      |
 | Testing Score  |        0.80377     |      0.88291      |
 
----
-***
 
 ## **Deep Learning**
 
@@ -52,8 +50,6 @@ And here are the results for the three models.
 | Loss           |   0.36154   |
 | Accuracy       |   0.84591   |
 
----
-***
 
 ## **Random Forest**
 
@@ -67,5 +63,4 @@ And here are the results for the three models.
 | Training Score |        0.99484     |      1.0          |
 | Testing Score  |        0.85354     |      0.88367      |
 
----
 ***
